@@ -15,4 +15,25 @@
 /* ---------------common----------- */
 body{
     font-family: 'Open Sans', sans-serif;
+    max-width: 1920px;
+}
+
+/* ------------header--------------- */
+header {
+    height: 80px;
+    background-color: aqua;
+}
+
+.logo, .box-button {
+    float: left;
+    width: 10%;
+    border: 1px solid black;
+    height: 80px;
+}
+
+.nav-left, .nav-right {
+    float: left;
+    width: 40%;
+    border: 1px solid black;
+    height: 80px;
 }
