@@ -35,16 +35,20 @@ body {
     color: white;
 }
 
+h1 {
+    font-size: 80px;
+}
+
 /* ------------header--------------- */
 header {
     height: 80px;
+    font-weight: 600;
 }
 
 .col-left-header, .col-right-header {
     float: left;
     width: 50%;
     height: 100%;
-    border: 1px solid black;
 }
 
 .col-left-header ul, .col-right-header ul {
@@ -82,4 +86,46 @@ header {
 
 .logo-img {
     margin-left: 20px;
+}
+
+/* -----------------------main----------------------- */
+
+/*----------------------- section1 ------------------------ */
+.section-1 {
+    background-color: #b4d0e7;
+    height: 750px;
+    font-weight: 600;
+}
+
+.hero {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    border: 1px solid black;
+}
+
+.col1-left, .col1-right {
+    float: left;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.col1-left {
+    width: 30%;
+    float: left;
+    padding-top: 70px;
+}
+
+.col1-right {
+    width: 50%;
+    float: right;
+}
+
+.p1 {
+    padding-bottom: 30px;
+} 
+
+.p2 {
+    padding-top: 15px;
+    font-size: 15px;
 }
