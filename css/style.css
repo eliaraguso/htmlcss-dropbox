@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    max-width: 1920px;
+    max-width: 1616px;
 }
 .clearfix::after {
     content: "";
@@ -36,7 +36,7 @@ body {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 67px;
 }
 
 /* ------------header--------------- */
@@ -101,24 +101,23 @@ header {
     width: 80%;
     margin: auto;
     padding-top: 100px;
-    border: 1px solid black;
 }
 
 .col1-left, .col1-right {
     float: left;
     height: 300px;
-    border: 1px solid black;
 }
 
 .col1-left {
-    width: 30%;
+    width: 27%;
     float: left;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .col1-right {
-    width: 50%;
-    float: right;
+    width: 70%;
+    float: left;
+    position: relative;
 }
 
 .p1 {
@@ -128,4 +127,15 @@ header {
 .p2 {
     padding-top: 15px;
     font-size: 15px;
+}
+
+.arrow-down {
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.col1-right img {
+    position: absolute;
+    top: 18%;
+    width: 100%;
 }
