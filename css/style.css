@@ -32,9 +32,9 @@
 }
 
 .container {
-    width: 65%;
+    width: 73%;
     margin: auto;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 body {
@@ -338,8 +338,9 @@ header {
 /* -----------section 4 operazioni business------------------*/
 .col4 {
     float: left;
-    width: calc((100%/3) - 80px);
+    width: calc((100%/3) - 20px);
     margin-top: 40px;
+    border: 1px solid green;
 }
 
 .col4 img {
@@ -351,6 +352,6 @@ header {
  }
 
 .col4-central {
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
