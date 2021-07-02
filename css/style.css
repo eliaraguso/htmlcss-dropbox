@@ -39,6 +39,11 @@ h1 {
     font-size: 67px;
 }
 
+.container {
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+}
 /* ------------header--------------- */
 header {
     height: 80px;
@@ -129,7 +134,7 @@ header {
     font-size: 15px;
 }
 
-.arrow-down {
+.fa-arrow-down {
     font-size: 50px;
     padding-top: 50px;
 }
@@ -138,4 +143,34 @@ header {
     position: absolute;
     top: 18%;
     width: 100%;
+}
+
+/* --------------------section 2---------------------------- */
+.section-2 .container {
+    padding-top: 200px;
+    height: 1200px;
+}
+
+.section-2 h2 {
+    font-size: 40px;
+    margin-bottom:60px;
+}
+
+#fatturazione-mensile {
+    margin-right: 20px;
+}
+
+.intestazione-2 {
+    margin-bottom: 30px;
+}
+
+.col2-left, .col2-center, .col2-right {
+    float: left;
+    border: 1px solid black;
+    width: calc((100% / 3) - 40px);
+    height: 600px;
+}
+
+.col2-center {
+    margin: 0 60px;
 }
