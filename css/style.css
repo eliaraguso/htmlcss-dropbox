@@ -31,12 +31,8 @@
     color: white;
 }
 
-h1 {
-    font-size: 67px;
-}
-
 .container {
-    width: 70%;
+    width: 65%;
     margin: auto;
     /* border: 1px solid black; */
 }
@@ -50,7 +46,14 @@ body {
 /* -------------------typo------------------------- */
 h3 {
     font-size: 25px;
-    font-weight: 900;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 67px;
 }
 
 
@@ -160,7 +163,6 @@ header {
 }
 
 .section-2 h2 {
-    font-size: 40px;
     margin-bottom:60px;
 }
 
@@ -276,21 +278,24 @@ header {
 .col2-bottom-left{
     width: 68%;
     line-height: 50px;
+    padding-left: 30px;
 }
 
 .col2-bottom-right {
     width: 32%;
+    line-height: 50px;
+    text-align: center;
 }
 
 .col2-bottom-left p {
     font-size: 15px;
 }
 
-.col2-bottom-right {
-    line-height: 50px;
+.col2-bottom-right a {
+    padding-left: 70px;
+    padding-right: 70px;
 }
-
-/* --------------------section3-------------------- */
+/* --------------------section3 partner-------------------- */
 .col3-left {
     float: left;
     width: 57%;
@@ -324,4 +329,24 @@ header {
     background-color: white;
     color: #000;
     border: 1px solid black;
+}
+
+/* -----------section 4 operazioni business------------------*/
+.col4 {
+    float: left;
+    width: calc((100%/3) - 80px);
+    margin-top: 40px;
+}
+
+.col4 img {
+    width: 100%;
+}
+ .col4 h3 {
+     margin-top: 30px;
+     margin-bottom: 30px;
+ }
+
+.col4-central {
+    margin-left: 120px;
+    margin-right: 120px;
 }
