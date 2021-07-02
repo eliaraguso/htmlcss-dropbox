@@ -248,9 +248,48 @@ header {
 }
 
 .col2-left, .col2-right, .col2-center {
-    min-height: 1070px;
+    min-height: 1200px;
 }
 
-.section-2 h4 {
+.section-2 .punti-salienti {
     margin-top: 100px;
+}
+
+.col2-bottom {
+    width: 100%;
+    border: 1px solid #d0d0d3;
+}
+.c-bottom {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.titolo-bottom {
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.col2-bottom-left, .col2-bottom-right {
+    height: calc(100% - 43px);
+    float: left;
+    padding: 20px 0;
+}
+
+.col2-bottom-left{
+    width: 68%;
+    line-height: 50px;
+}
+
+.col2-bottom-right {
+    width: 32%;
+}
+
+.col2-bottom-left p {
+    font-size: 15px;
+}
+
+.col2-bottom-right {
+    line-height: 50px;
 }
