@@ -233,7 +233,6 @@ header {
 .punti-salienti {
     width: 80%;
     margin: auto;
-    margin-top: 80px;
 }
 
 .list-punti-salienti {
@@ -248,10 +247,6 @@ header {
     color: #0061ff;
 }
 
-.fa-user-alt {
-    color: black;
-}
-
 .col2-left, .col2-right, .col2-center {
-    min-height: 1095px;
+    min-height: 1070px;
 }
