@@ -340,7 +340,6 @@ header {
     float: left;
     width: calc((100%/3) - 20px);
     margin-top: 40px;
-    border: 1px solid green;
 }
 
 .col4 img {
@@ -354,4 +353,22 @@ header {
 .col4-central {
     margin-left: 30px;
     margin-right: 30px;
+}
+
+/* --------------------section 5------------------------ */
+.section-5 {
+    margin-top: 200px;
+}
+
+.section-5 a {
+    color: #0061ff;
+    line-height: 80px;
+}
+
+.cont-100div3 {
+    float: left;
+    width: calc(100% / 3);
+    height: 500px;
+    background-color: tomato;
+    border: 1px solid black;
 }
