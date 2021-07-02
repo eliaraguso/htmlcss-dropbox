@@ -8,6 +8,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     max-width: 1920px;
+    margin: auto;
 }
 .clearfix::after {
     content: "";
@@ -42,7 +43,7 @@ h1 {
 .container {
     width: 70%;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
@@ -154,7 +155,6 @@ header {
 }
 .section-2 .container {
     padding-top: 200px;
-    height: 1200px;
 }
 
 .section-2 h2 {
@@ -188,7 +188,6 @@ header {
     float: left;
     border: 1px solid #d0d0d3;
     width: calc((100% / 3) - 40px);
-    height: 600px;
 }
 
 .col2-center {
@@ -210,10 +209,49 @@ header {
 }
 
 .plan-title li, .plan-info li {
-    padding-left: 30px;
     margin: 25px 0;
 }
 
-.col2-left .button {
-    margin-left: 30px;
+.acquista-ora {
+    color: #0061ff;
+}
+
+.bottom-border {
+    border-bottom: 1px solid #d0d0d3;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+.prova {
+    margin-bottom: 30px;
+}
+
+.acquisto {
+    margin-top: 30px;
+}
+
+.punti-salienti {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.list-punti-salienti {
+    list-style: none;
+}
+
+.list-punti-salienti li {
+    margin: 40px 0;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
+.fa-user-alt {
+    color: black;
+}
+
+.col2-left, .col2-right, .col2-center {
+    min-height: 1095px;
 }
