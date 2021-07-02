@@ -5,11 +5,6 @@
     box-sizing: border-box;  
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    max-width: 1920px;
-    margin: auto;
-}
 .clearfix::after {
     content: "";
     clear: both;
@@ -46,11 +41,22 @@ h1 {
     /* border: 1px solid black; */
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1920px;
+    margin: auto;
+    font-weight: 600;
+}
+/* -------------------typo------------------------- */
+h3 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
 
 /* ------------header--------------- */
 header {
     height: 80px;
-    font-weight: 600;
 }
 
 .col-left-header, .col-right-header {
@@ -102,7 +108,6 @@ header {
 .section-1 {
     background-color: #b4d0e7;
     padding-bottom: 160px;
-    font-weight: 600;
 }
 
 .hero {
@@ -150,9 +155,6 @@ header {
 }
 
 /* --------------------section 2---------------------------- */
-.section-2 {
-    font-weight: 600;
-}
 .cont-padd-200px {
     padding-top: 200px;
 }
@@ -160,11 +162,6 @@ header {
 .section-2 h2 {
     font-size: 40px;
     margin-bottom:60px;
-}
-
-.section-2 h3 {
-    font-size: 27px;
-    font-weight: 900;
 }
 
 .plan-price {
@@ -296,14 +293,35 @@ header {
 /* --------------------section3-------------------- */
 .col3-left {
     float: left;
-    width: 45%;
+    width: 57%;
 }
 
 .col3-right {
     float: right;
-    width: 45%;
+    width: 35%;
+    padding-top: 50px;
 }
 
 .col3-left img {
     width: 100%;
+}
+
+.section-3 {
+    padding: 150px 0;
+}
+
+.col3-right h3 {
+    margin-bottom: 35px;
+}
+
+.col3-right p {
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.col3-right a {
+    font-size: 20px;
+    background-color: white;
+    color: #000;
+    border: 1px solid black;
 }
