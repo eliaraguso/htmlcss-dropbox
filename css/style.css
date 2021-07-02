@@ -60,12 +60,16 @@ h1 {
 /* ------------header--------------- */
 header {
     height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
 }
 
 .col-left-header, .col-right-header {
     float: left;
     width: 50%;
     height: 100%;
+    background-color: white;
 }
 
 .col-left-header ul, .col-right-header ul {
