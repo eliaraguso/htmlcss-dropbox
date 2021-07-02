@@ -153,7 +153,7 @@ header {
 .section-2 {
     font-weight: 600;
 }
-.section-2 .container {
+.cont-padd-200px {
     padding-top: 200px;
 }
 
@@ -248,7 +248,7 @@ header {
 }
 
 .col2-left, .col2-right, .col2-center {
-    min-height: 1200px;
+    min-height: 1210px;
 }
 
 .section-2 .punti-salienti {
@@ -258,10 +258,9 @@ header {
 .col2-bottom {
     width: 100%;
     border: 1px solid #d0d0d3;
+    margin-top: 20px;
 }
 .c-bottom {
-    width: 70%;
-    margin: auto;
     margin-top: 50px;
 }
 
