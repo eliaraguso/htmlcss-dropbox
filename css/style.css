@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    max-width: 1616px;
+    max-width: 1920px;
 }
 .clearfix::after {
     content: "";
@@ -44,6 +44,8 @@ h1 {
     margin: auto;
     border: 1px solid black;
 }
+
+
 /* ------------header--------------- */
 header {
     height: 80px;
@@ -103,7 +105,7 @@ header {
 }
 
 .hero {
-    width: 80%;
+    width: 75%;
     margin: auto;
     padding-top: 100px;
 }
@@ -120,9 +122,10 @@ header {
 }
 
 .col1-right {
-    width: 70%;
+    width: 60%;
     float: left;
     position: relative;
+    margin-left: 50px;
 }
 
 .p1 {
@@ -146,6 +149,9 @@ header {
 }
 
 /* --------------------section 2---------------------------- */
+.section-2 {
+    font-weight: 600;
+}
 .section-2 .container {
     padding-top: 200px;
     height: 1200px;
@@ -154,6 +160,20 @@ header {
 .section-2 h2 {
     font-size: 40px;
     margin-bottom:60px;
+}
+
+.col2-left h3 {
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.plan-price {
+    font-weight: 900;
+}
+
+.plan-period {
+    color: #667683;
+    margin-top: 20px;
 }
 
 #fatturazione-mensile {
@@ -166,11 +186,34 @@ header {
 
 .col2-left, .col2-center, .col2-right {
     float: left;
-    border: 1px solid black;
+    border: 1px solid #d0d0d3;
     width: calc((100% / 3) - 40px);
     height: 600px;
 }
 
 .col2-center {
     margin: 0 60px;
+}
+
+.col-title-box {
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+    line-height: 40px;
+}
+
+.plan-title, .plan-info {
+    list-style: none;
+}
+
+.plan-info {
+    margin: 40px 0;
+}
+
+.plan-title li, .plan-info li {
+    padding-left: 30px;
+    margin: 25px 0;
+}
+
+.col2-left .button {
+    margin-left: 30px;
 }
