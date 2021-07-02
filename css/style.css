@@ -292,3 +292,18 @@ header {
 .col2-bottom-right {
     line-height: 50px;
 }
+
+/* --------------------section3-------------------- */
+.col3-left {
+    float: left;
+    width: 45%;
+}
+
+.col3-right {
+    float: right;
+    width: 45%;
+}
+
+.col3-left img {
+    width: 100%;
+}
