@@ -162,7 +162,7 @@ header {
     margin-bottom:60px;
 }
 
-.col2-left h3 {
+.section-2 h3 {
     font-size: 27px;
     font-weight: 900;
 }
@@ -249,4 +249,8 @@ header {
 
 .col2-left, .col2-right, .col2-center {
     min-height: 1070px;
+}
+
+.section-2 h4 {
+    margin-top: 100px;
 }
