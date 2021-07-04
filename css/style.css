@@ -425,7 +425,7 @@ header {
     text-align: center;
 }
 
-.square:after {
+.square::after {
     content: "";
     display: block;
     padding-bottom: 100%;
@@ -449,4 +449,6 @@ header {
 .main-container-teams .w40 p {
     padding-top: 50px;
 }
+
+
 
