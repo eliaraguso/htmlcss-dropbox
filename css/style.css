@@ -71,6 +71,10 @@ body {
     height: 100%;
 }
 
+.w85 {
+    width: 85%;
+}
+
 /* -------------------typo------------------------- */
 h3 {
     font-size: 25px;
@@ -84,6 +88,10 @@ h1 {
     font-size: 67px;
 }
 
+h4 {
+    font-size: 20px;
+    font-weight: 900;
+}
 
 /* ------------header--------------- */
 header {
@@ -146,7 +154,6 @@ header {
 }
 
 .hero {
-    width: 75%;
     margin: auto;
     padding-top: 100px;
 }
@@ -523,3 +530,47 @@ header {
 }
 
 /* -------------------footer------------------------- */
+
+footer {
+    background-color: black;
+    height: 500px;
+}
+
+.nav-footer {
+    color: white;
+    border: 1px solid black;
+    height: 70%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.col-footer {
+    width: calc(100% / 5);
+    float: left;
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+    line-height: 31px;
+}
+
+.col-footer ul {
+    list-style: none;
+}
+
+.col-footer h4 {
+    padding-bottom: 20px;
+}
+
+.lang-footer {
+    color: darkgray;
+    vertical-align: top;
+    margin: auto;;
+}
+
+.lang-footer p {
+    border-top: 1px solid #d0d0d3;
+    padding-top: 45px;
+}
+
+.lang {
+    width: 95px;
+}
