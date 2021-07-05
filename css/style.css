@@ -14,7 +14,6 @@
 /* ---------------common----------- */
 .center {
     position: absolute;
-    vertical-align: middle;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -47,6 +46,31 @@ body {
 .float {
     float: left;
 }
+
+.w30 {
+    width: 30%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}
+
 /* -------------------typo------------------------- */
 h3 {
     font-size: 25px;
@@ -369,22 +393,10 @@ header {
     line-height: 80px;
 }
 
+/* ---------sottosezione quadrati colorati responsive------------ */
 
 .main-container-teams {
     background-color: #f5f5f5;
-}
-
-
-.w30 {
-    width: 30%;
-}
-
-.w40 {
-    width: 40%;
-}
-
-.w50 {
-    width: 50%;
 }
 
 .backcolor-green {
@@ -429,9 +441,9 @@ header {
     content: "";
     display: block;
     padding-bottom: 100%;
-  }
+}
 
-  .main-container-teams .w30 img {
+.main-container-teams .w30 img {
     width: 100%;
 }
 .main-container-teams .w40 {
@@ -449,6 +461,30 @@ header {
 .main-container-teams .w40 p {
     padding-top: 50px;
 }
+ /* ------------------sottosezione prova gratuita---------------- */
 
+ .free-try {
+     height: 360px;
+ }
+
+.free-try h2 {
+    text-align: initial;
+    color: #61082b;
+}
+.free-try a {
+    background-color: white;
+    color: black;
+    padding: 5px 60px;
+    position: absolute;
+    line-height: 30px;
+    right: 80px;
+    top: 39%;
+ }
+
+
+.free-try .w60, .free-try .w40 {
+    height: 100%;
+    position: relative;
+}
 
 
