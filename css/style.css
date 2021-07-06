@@ -102,7 +102,6 @@ header {
 }
 
 .col-left-header, .col-right-header {
-    float: left;
     width: 50%;
     height: 100%;
     background-color: white;
@@ -150,7 +149,7 @@ header {
 /*----------------------- section1 ------------------------ */
 .section-1 {
     background-color: #b4d0e7;
-    padding-bottom: 160px;
+    padding-bottom: 210px;
 }
 
 .hero {
