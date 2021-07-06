@@ -75,6 +75,10 @@ body {
     width: 85%;
 }
 
+a:hover {
+    box-shadow: 10px 10px 5px grey;
+}
+
 /* -------------------typo------------------------- */
 h3 {
     font-size: 25px;
