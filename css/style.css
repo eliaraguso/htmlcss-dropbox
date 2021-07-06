@@ -85,7 +85,7 @@ h2 {
 }
 
 h1 {
-    font-size: 67px;
+    font-size: 85px;
 }
 
 h4 {
@@ -159,19 +159,16 @@ header {
 }
 
 .col1-left, .col1-right {
-    float: left;
     height: 300px;
 }
 
 .col1-left {
     width: 27%;
-    float: left;
     padding-top: 50px;
 }
 
 .col1-right {
     width: 58%;
-    float: left;
     position: relative;
     margin-left: 50px;
 }
@@ -186,7 +183,7 @@ header {
 }
 
 .fa-arrow-down {
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 50px;
 }
 
