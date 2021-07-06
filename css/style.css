@@ -405,7 +405,6 @@ header {
 
 .backcolor-green {
     background-color: #a2d39b;
-    border: 10px solid #d0e9cd;
 }
 
 .backcolor-darkred {
@@ -464,6 +463,10 @@ header {
 }
 .main-container-teams .w40 p {
     padding-top: 50px;
+}
+
+.square:hover {
+    border: 10px solid rgba(255, 255, 255, 0.39);;
 }
  /* ------------------sottosezione 5 prova gratuita---------------- */
 
