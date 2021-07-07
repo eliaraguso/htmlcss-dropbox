@@ -90,6 +90,7 @@ h2 {
 
 h1 {
     font-size: 85px;
+    padding-bottom: 80px;
 }
 
 h4 {
@@ -162,17 +163,12 @@ header {
     padding-top: 100px;
 }
 
-.col1-left, .col1-right {
-    height: 300px;
-}
-
 .col1-left {
     width: 27%;
-    padding-top: 50px;
 }
 
 .col1-right {
-    width: 58%;
+    width: 62%;
     position: relative;
     margin-left: 50px;
 }
@@ -196,6 +192,7 @@ header {
     top: 18%;
     width: 100%;
 }
+
 
 /* --------------------section 2---------------------------- */
 .cont-padd-200px {
